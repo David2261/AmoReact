@@ -66,3 +66,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+* {
+  box-sizing: border-box !important;
+}
+#survey-form {
+  background-color: rgb(19, 19, 136, 0.5) !important;
+  padding: 20px !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+#title, #description {
+  text-align: center !important;
+  text-shadow: 5px 5px 10px black !important;
+}
+label, #survey-form p {
+  font-size: 20px !important;
+}
+#dropdown, #nt-sure, #option-eight {
+  margin-bottom: 20px !important;
+}
